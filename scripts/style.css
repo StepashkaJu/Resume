@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Whisper&display=swap');
+
+body {
+    font-size: 19px;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    background-color: #deded4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #86837c;
+    margin: 0;
+    margin: 23px;
+}
+
+.avatar {
+    box-shadow: 10px 10px 20px rgb(105, 94, 94);
+    width: 300px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p {
+    color: rgb(28, 1, 15);
+    font-style: inherit;
+    margin: 0;
+    text-align: start;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+a:visited {
+    color: rgb(50, 63, 50)
+}
+
+a:active {
+    color: darkolivegreen;
+}
+
+.hobbies {
+    background-color: rgb(240, 231, 218);
+}
+
+.work-expirience {
+    background-color: #cecbb1;
+}
+
+.form {
+    background-color: #cfd0c8;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.list li {
+    padding: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td:first-child:hover {
+    background: #ddd9be;
+    border-radius: 10px;
+    cursor: default;
+
+}
+
+.table td,
+th,
+.form h2 {
+    text-align: center;
+}
+
+.form-contact label {
+    display: block;
+}
+
+.form-contact input,
+.form-contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #a8a8a6;
+    outline: none;
+    padding: 15px 0 10px 0;
+    font-family: inherit;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-contact {
+    margin-right: 20px;
+    width: 50%;
+
+    /* display: inline-block;
+    width: calc(50% - 20px) */
+}
+
+.form-row .form-contact:last-child {
+    margin-right: 0;
+}
+
+textarea {
+    width: inherit;
+    resize: none;
+    scrollbar-color: #a8a8a6;
+}
+
+.submit {
+    margin: 10px 10px;
+    padding: 15px;
+    width: 130px;
+    font-family: 'Hedvig Letters Serif', serif;
+    border: none;
+    border-radius: 7px;
+    background: rgb(61, 71, 64);
+    color: rgb(239, 236, 236);
+    cursor: pointer;
+}
+
+.submit:hover {
+    color: rgb(194, 201, 181);
+    opacity: 0.8;
+}
+
+@media (max-width:965px) {
+
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .info-text p {
+        text-align: center;
+    }
+}
+
+@media (max-width:376px) {
+    body {
+        font-size: 12px;
+    }
+
+    .card {
+        width: calc(100%-10px)
+    }
+
+    .submit {
+        font-size: 12px;
+        margin: 7px 7px;
+        padding: 7px;
+        width: 80px;
+    }
+}

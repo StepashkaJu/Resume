@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="site, personal site, girl" />
+    <meta name="description" content="My own HTML-site" />
+    <title>Iuliia Stepanenko</title>
+    <link rel="stylesheet" href="scripts/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          class="avatar"
+          src="images/avatar.jpg"
+          alt="Iuliia's photo"
+          width="200px"
+        />
+        <div class="info-text">
+          <h2>Iuliia Stepanenko</h2>
+          <p>Hello everyone!</p>
+          <p>My name is Iuliia Stepanenko. <br />I live in Georgia.</p>
+          <p>
+            I've been studying HTML and CSS for two month. <br />
+            I hope I can make progress!
+          </p>
+          <h2>Social media:</h2>
+          <a href="https://www.instagram.com/stepashka__ju/" target="_blank"
+            >Instagram</a
+          >
+          |
+          <a
+            href="https://open.spotify.com/user/31q53hqbutwdwsglsekcnwg5mlh4"
+            target="_blank"
+            >Spotify</a
+          >
+        </div>
+      </div>
+      <div class="card hobbies">
+        <h2>My hobbies:</h2>
+        <ul class="list">
+          <li>Reading books and articles</li>
+          <li>Doing yoga</li>
+          <li>Jogging</li>
+          <li>Dancing</li>
+          <li>Cooking</li>
+          <li>Watching movies TV shows</li>
+        </ul>
+      </div>
+      
+      <div class="card work-expirience">
+        <h2>Work experience</h2>
+        <table class="table">
+            <tr>
+              <th>Works place</th>
+              <th>Profession</th>
+              <th>Years</th>
+            </tr>
+          <tr>
+            <td>BMSTU</td>
+            <td>Lead engineer</td>
+            <td>2017-2020</td>
+          </tr>
+          <tr>
+            <td>Alfa Team</td>
+            <td>Engineer</td>
+            <td>2020-2022</td>
+          </tr>
+        </table>
+      </div>
+
+      <form action="/" class="form card">
+        <h2>Contact me</h2>
+
+        <div class="form-row">
+          <div class="form-contact">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+          </div>
+          <div class="form-contact">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+          </div>
+        </div>
+
+        <div class="form-contact">
+          <label>Your message:</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Enter your message..."
+          ></textarea>
+        </div>
+        <button class="submit" onclick="alert('Thanks!')">Submit!</button>
+      </form>
+    </div>
+  </body>
+</html>
